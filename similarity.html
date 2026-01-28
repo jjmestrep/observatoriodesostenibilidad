@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similitud - Observatorio ESG Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="dashboard.html">Observatorio ESG</a>
+        </div>
+        <div class="nav-links">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="compare.html">Comparador</a>
+            <a href="similarity.html" class="active">Similitud</a>
+            <button id="logout-btn" class="btn btn-small">Salir</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="page-header">
+            <h1>Herramienta de Similitud</h1>
+            <p>Compara tu texto contra los mensajes de los competidores</p>
+        </header>
+
+        <div class="similarity-input">
+            <textarea id="input-text" placeholder="Introduce tu texto para comparar (ej: 'Measure your carbon footprint automatically')" rows="4"></textarea>
+            <button id="analyze-btn" class="btn btn-primary">Analizar similitud</button>
+        </div>
+
+        <div id="similarity-results" class="similarity-results hidden">
+            <h2>Resultados</h2>
+            <div class="results-summary">
+                <p>Comparando contra <span id="total-messages">0</span> mensajes de <span id="total-competitors">0</span> competidores</p>
+            </div>
+            <div id="results-list" class="results-list">
+                <!-- Resultados se generan dinámicamente -->
+            </div>
+        </div>
+    </main>
+
+    <script src="js/auth.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/similarity.js"></script>
+    <script>
+        requireAuth();
+        initSimilarity();
+
+        document.getElementById('logout-btn').addEventListener('click', function() {
+            logout();
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>

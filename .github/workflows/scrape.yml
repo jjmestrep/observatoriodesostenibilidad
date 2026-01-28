@@ -1,0 +1,67 @@
+name: Scrape ESG Competitors
+
+on:
+  # Run every Monday at 6:00 UTC
+  schedule:
+    - cron: '0 6 * * 1'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      site:
+        description: 'Specific site to scrape (leave empty for all)'
+        required: false
+        default: ''
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scraper/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          cd scraper
+          npm ci || npm install
+
+      - name: Run scraper
+        run: |
+          cd scraper
+          if [ -n "${{ github.event.inputs.site }}" ]; then
+            node index.js --site=${{ github.event.inputs.site }}
+          else
+            node index.js
+          fi
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/competitors.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update competitor data [automated]"
+          file_pattern: 'data/competitors.json'
+          commit_author: 'GitHub Actions <actions@github.com>'
+
+      - name: Report results
+        run: |
+          echo "Scraping completed at $(date)"
+          echo "Changes detected: ${{ steps.changes.outputs.changed }}"
