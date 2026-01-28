@@ -1,0 +1,21 @@
+name: Scrape ESG Competitors                                                                                                                                                                                  
+                                                                                                                                                                                                                
+  on:                                                                                                                                                                                                           
+    schedule:                                                                                                                                                                                                   
+      - cron: '0 6 * * 1'                                                                                                                                                                                       
+    workflow_dispatch:                                                                                                                                                                                          
+                                                                                                                                                                                                                
+  jobs:                                                                                                                                                                                                         
+    scrape:                                                                                                                                                                                                     
+      runs-on: ubuntu-latest                                                                                                                                                                                    
+      steps:                                                                                                                                                                                                    
+        - uses: actions/checkout@v4                                                                                                                                                                             
+        - uses: actions/setup-node@v4                                                                                                                                                                           
+          with:                                                                                                                                                                                                 
+            node-version: '20'                                                                                                                                                                                  
+        - run: cd scraper && npm install                                                                                                                                                                        
+        - run: cd scraper && node index.js                                                                                                                                                                      
+        - uses: stefanzweifel/git-auto-commit-action@v5                                                                                                                                                         
+          with:                                                                                                                                                                                                 
+            commit_message: "chore: update competitor data [automated]"                                                                                                                                         
+            file_pattern: 'data/competitors.json'    
