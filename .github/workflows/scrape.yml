@@ -2,7 +2,7 @@ name: Scrape ESG competitors
 on:
   schedule:
     - cron: "0 6 * * 1"
-  worflow_dispatch: 
+  workflow_dispatch:
 
 jobs: 
   scrape:
