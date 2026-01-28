@@ -2,18 +2,18 @@
   {
     "name": "Dcycle",
     "url": "https://dcycle.io",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "Simplify your sustainability journey",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "Your sustainability workspace",
     "valueProposition": [
-      "All-in-one ESG management platform",
-      "Automated carbon footprint calculation",
-      "Regulatory compliance made easy"
+      "Connect your teams, data and ESG projects in a single platform",
+      "Turn complexity into clarity and action",
+      "Simplify sustainability management for business"
     ],
     "keyFeatures": [
-      "Carbon footprint tracking",
-      "ESG reporting",
-      "Supply chain analysis",
-      "Regulatory compliance"
+      "Centralize all sustainability and ESG data",
+      "Generate reliable, audit-ready reports",
+      "Automate data updates",
+      "ISO 14064 certified carbon footprint calculation"
     ],
     "pricing": {
       "model": "tiered",
@@ -22,11 +22,12 @@
     },
     "messaging": {
       "headlines": [
-        "Simplify your sustainability journey",
-        "Measure, reduce, and report your environmental impact",
-        "The ESG platform for growing companies"
+        "Your sustainability workspace",
+        "Turn complexity into clarity and action",
+        "Start moving what matters",
+        "Your data, your way"
       ],
-      "keywords": ["sustainability", "carbon footprint", "ESG", "compliance", "reporting"]
+      "keywords": ["sustainability", "ESG", "workspace", "automation", "audit-ready", "ISO 14064"]
     },
     "reviews": {
       "g2": { "rating": 4.6, "count": 45 },
@@ -35,27 +36,34 @@
     "strategy": {
       "targetMarket": "Mid-market European companies",
       "differentiators": [
-        "Strong focus on EU regulations",
-        "Spanish market expertise",
-        "User-friendly interface"
+        "ISO 14064 certified",
+        "70-75% less time-to-report",
+        "3x data coverage",
+        "Spanish market expertise"
       ]
+    },
+    "metrics": {
+      "timeToReport": "↓70-75%",
+      "dataCoverage": "↑3x",
+      "operationalSavings": "+23-29%",
+      "payback": "<8-11 months"
     }
   },
   {
     "name": "Sweep",
     "url": "https://sweep.net",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "The carbon management platform for enterprises",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "Sustainability is Smart Business",
     "valueProposition": [
-      "Enterprise-grade carbon management",
-      "Science-based target setting",
-      "Decarbonization roadmap planning"
+      "Unlock the value of your sustainability data",
+      "Upload your ESG data once, use it everywhere",
+      "Manage risk, drive growth and stay compliant"
     ],
     "keyFeatures": [
-      "Carbon accounting",
-      "Science-based targets",
-      "Supplier engagement",
-      "Climate risk assessment"
+      "Sustainability data platform",
+      "ESG and carbon emissions tracking",
+      "Value chain optimization",
+      "Built-in compliance"
     ],
     "pricing": {
       "model": "custom",
@@ -64,11 +72,12 @@
     },
     "messaging": {
       "headlines": [
-        "The carbon management platform for enterprises",
-        "Take control of your carbon footprint",
-        "From measurement to action"
+        "Sustainability is Smart Business",
+        "Unlock the value of your sustainability data",
+        "Upload your ESG data once, use it everywhere",
+        "Drive transition plans that fuel business success"
       ],
-      "keywords": ["carbon management", "enterprise", "decarbonization", "science-based targets", "supply chain"]
+      "keywords": ["sustainability data", "ESG", "compliance", "value chain", "smart business", "risk management"]
     },
     "reviews": {
       "g2": { "rating": 4.7, "count": 89 },
@@ -77,27 +86,28 @@
     "strategy": {
       "targetMarket": "Large enterprises globally",
       "differentiators": [
-        "Strong supplier engagement tools",
-        "Integration capabilities",
-        "Enterprise security compliance"
+        "Data platform approach",
+        "Use data once everywhere",
+        "Strong compliance focus",
+        "Enterprise security"
       ]
     }
   },
   {
     "name": "Greenly",
     "url": "https://greenly.earth",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "Measure your carbon footprint automatically",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "Le copilote intelligent de votre stratégie carbone",
     "valueProposition": [
-      "Automated carbon footprint measurement",
-      "Action-oriented sustainability platform",
-      "Certified carbon neutrality"
+      "Your entire climate strategy within reach",
+      "More impact, less cost",
+      "All-in-one climate action solution"
     ],
     "keyFeatures": [
-      "Automatic data collection",
-      "Carbon offsetting",
-      "Employee engagement",
-      "LCA analysis"
+      "Bilan Carbone calculation",
+      "Life cycle analysis (LCA)",
+      "AI-powered compliance",
+      "Free ESG tools"
     ],
     "pricing": {
       "model": "tiered",
@@ -106,11 +116,12 @@
     },
     "messaging": {
       "headlines": [
-        "Measure your carbon footprint automatically",
-        "Become a climate leader",
-        "The all-in-one climate solution"
+        "Le copilote intelligent de votre stratégie carbone",
+        "Toute votre stratégie climat, à portée de main",
+        "Plus d'impact, moins de coûts",
+        "La plateforme climat la plus utilisée"
       ],
-      "keywords": ["carbon footprint", "automatic", "climate", "offsetting", "LCA"]
+      "keywords": ["carbon strategy", "climate", "AI", "Bilan Carbone", "LCA", "copilot"]
     },
     "reviews": {
       "g2": { "rating": 4.8, "count": 156 },
@@ -119,27 +130,33 @@
     "strategy": {
       "targetMarket": "SMBs and Mid-market in France and US",
       "differentiators": [
-        "Automated data integration",
-        "Carbon offsetting marketplace",
-        "Strong brand and marketing"
+        "3500+ satisfied clients",
+        "52% cost reduction in carbon management",
+        "80% reduction in time spent",
+        "Most used climate platform"
       ]
+    },
+    "metrics": {
+      "costReduction": "52%",
+      "timeReduction": "80%",
+      "processEfficiency": "93% reduction in employees involved"
     }
   },
   {
     "name": "Osapiens",
     "url": "https://osapiens.com",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "Sustainability management made simple",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "One platform for sustainable growth",
     "valueProposition": [
-      "Comprehensive sustainability management",
-      "Supply chain due diligence",
-      "Multi-framework compliance"
+      "The ESG platform to make an impact",
+      "Leading software for transparency in the supply chain",
+      "State-of-the-art technology for sustainability reporting"
     ],
     "keyFeatures": [
-      "ESG data management",
-      "Supply chain compliance",
-      "LkSG compliance",
-      "Carbon accounting"
+      "ESG platform",
+      "Supply chain transparency",
+      "Sustainability reporting",
+      "LkSG compliance"
     ],
     "pricing": {
       "model": "custom",
@@ -148,11 +165,11 @@
     },
     "messaging": {
       "headlines": [
-        "Sustainability management made simple",
-        "Master your supply chain sustainability",
-        "Compliance without complexity"
+        "One platform for sustainable growth",
+        "The ESG platform to make an impact",
+        "Leading software for transparency in the supply chain"
       ],
-      "keywords": ["sustainability management", "supply chain", "compliance", "LkSG", "due diligence"]
+      "keywords": ["ESG platform", "supply chain", "transparency", "sustainability reporting", "sustainable growth"]
     },
     "reviews": {
       "g2": { "rating": 4.4, "count": 34 },
@@ -161,27 +178,27 @@
     "strategy": {
       "targetMarket": "German enterprises",
       "differentiators": [
+        "Supply chain focus",
         "LkSG expertise",
-        "German market focus",
-        "Supply chain specialization"
+        "German market leader"
       ]
     }
   },
   {
     "name": "Watershed",
     "url": "https://watershed.com",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "Enterprise climate platform",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "AI-accelerated sustainability",
     "valueProposition": [
-      "Enterprise-grade climate software",
-      "Audit-ready carbon accounting",
-      "Decarbonization at scale"
+      "Measure, report and hit your targets with rigor and efficiency",
+      "Build a world-class sustainability program",
+      "Numbers you can trust, impact you can prove"
     ],
     "keyFeatures": [
-      "Carbon measurement",
-      "Supplier decarbonization",
-      "Climate disclosure",
-      "Clean energy procurement"
+      "AI-accelerated ESG measurement",
+      "Audit-grade reporting",
+      "Global ESG disclosure",
+      "Decarbonization tracking"
     ],
     "pricing": {
       "model": "custom",
@@ -190,11 +207,12 @@
     },
     "messaging": {
       "headlines": [
-        "Enterprise climate platform",
-        "Measure, report, and reduce emissions",
-        "The climate platform for ambitious companies"
+        "AI-accelerated sustainability",
+        "Build a world-class sustainability program",
+        "Numbers you can trust",
+        "Impact you can prove"
       ],
-      "keywords": ["enterprise", "climate", "decarbonization", "emissions", "disclosure"]
+      "keywords": ["AI", "sustainability", "audit-grade", "ESG disclosure", "decarbonization", "enterprise"]
     },
     "reviews": {
       "g2": { "rating": 4.9, "count": 78 },
@@ -203,27 +221,28 @@
     "strategy": {
       "targetMarket": "US Fortune 500 and global enterprises",
       "differentiators": [
-        "Strong VC backing",
-        "High-profile customers",
-        "US market leader"
+        "AI-accelerated approach",
+        "Verdantix Green Quadrant Leader 2025",
+        "Measure ESG in weeks not months",
+        "Network of sustainability leaders"
       ]
     }
   },
   {
     "name": "Aplanet",
     "url": "https://aplanet.org",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "ESG software for responsible business",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "Transform ESG Data into Business Growth & Impact",
     "valueProposition": [
-      "Complete ESG management",
-      "Stakeholder engagement",
-      "Sustainability reporting automation"
+      "Turn non-financial data into actionable insights",
+      "Scalable ESG Reporting for Every Business",
+      "ESG Management & Reporting Software Made Simple"
     ],
     "keyFeatures": [
-      "ESG data collection",
-      "Materiality assessment",
-      "Reporting automation",
-      "Stakeholder management"
+      "Automated sustainability reporting",
+      "CSRD compliance",
+      "GRI, IFRS, ISSB, SFDR support",
+      "Real-time auditability"
     ],
     "pricing": {
       "model": "tiered",
@@ -232,11 +251,12 @@
     },
     "messaging": {
       "headlines": [
-        "ESG software for responsible business",
-        "Simplify your ESG reporting",
-        "Build a sustainable business"
+        "Transform ESG Data into Business Growth & Impact",
+        "Scalable ESG Reporting for Every Business",
+        "ESG Technology to Drive Business Growth",
+        "The APLANET Advantage"
       ],
-      "keywords": ["ESG", "reporting", "stakeholder", "materiality", "responsible business"]
+      "keywords": ["ESG data", "business growth", "reporting", "CSRD", "GRI", "auditability"]
     },
     "reviews": {
       "g2": { "rating": 4.3, "count": 23 },
@@ -245,27 +265,32 @@
     "strategy": {
       "targetMarket": "Spanish and Latin American companies",
       "differentiators": [
-        "Spanish language support",
-        "LATAM market expertise",
-        "Strong consulting services"
+        "80% time saved",
+        "100% real-time auditability",
+        "Multi-framework support",
+        "Spanish language expertise"
       ]
+    },
+    "metrics": {
+      "timeSaved": "80%",
+      "auditability": "100% real-time"
     }
   },
   {
     "name": "Plan A",
     "url": "https://plana.earth",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "Decarbonize your business",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "Turn decarbonisation into business results",
     "valueProposition": [
-      "Science-based decarbonization",
-      "Automated carbon accounting",
-      "Net-zero transition planning"
+      "One platform to master your entire net-zero journey",
+      "Certified software for reliable emissions intelligence",
+      "Decarbonisation is business critical"
     ],
     "keyFeatures": [
-      "Carbon accounting",
-      "Decarbonization roadmap",
-      "Supplier engagement",
-      "ESG reporting"
+      "Carbon footprint measurement",
+      "AI-powered carbon reporting",
+      "GHG Protocol compliant",
+      "TÜV Rheinland certified"
     ],
     "pricing": {
       "model": "tiered",
@@ -274,11 +299,12 @@
     },
     "messaging": {
       "headlines": [
-        "Decarbonize your business",
-        "Your net-zero partner",
-        "Climate action starts here"
+        "Turn decarbonisation into business results",
+        "One platform to master your entire net-zero journey",
+        "Gain a competitive advantage with measurable results",
+        "Accelerate time-to-value with Plan A"
       ],
-      "keywords": ["decarbonization", "net-zero", "climate action", "carbon accounting", "science-based"]
+      "keywords": ["decarbonisation", "net-zero", "business results", "AI", "certified", "emissions intelligence"]
     },
     "reviews": {
       "g2": { "rating": 4.5, "count": 67 },
@@ -287,27 +313,33 @@
     "strategy": {
       "targetMarket": "European mid-market and enterprises",
       "differentiators": [
-        "Strong Berlin tech ecosystem backing",
-        "Focus on decarbonization actions",
-        "European regulatory expertise"
+        "B Corp certified",
+        "WEF Technology Pioneer 2022",
+        "70% faster data management",
+        "130+ days saved on carbon accounting"
       ]
+    },
+    "metrics": {
+      "dataManagement": "70% faster",
+      "daysSaved": "130+",
+      "reportingSpeed": "20x"
     }
   },
   {
     "name": "Persefoni",
     "url": "https://persefoni.com",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "Climate management and accounting platform",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "Carbon Footprint & Sustainability Reporting",
     "valueProposition": [
-      "Financial-grade carbon accounting",
-      "PCAF-aligned methodology",
-      "Enterprise climate intelligence"
+      "Respond with confidence to disclosure requests",
+      "Measure, Report, Decarbonize",
+      "The Carbon & Sustainability AI Leader"
     ],
     "keyFeatures": [
-      "Carbon accounting",
-      "PCAF compliance",
-      "Climate disclosure",
-      "Portfolio analytics"
+      "Scope 1, 2, and 3 carbon footprints",
+      "PersefoniAI with Copilot",
+      "Assurance-grade GHG reporting",
+      "Net-zero target setting"
     ],
     "pricing": {
       "model": "custom",
@@ -316,11 +348,12 @@
     },
     "messaging": {
       "headlines": [
-        "Climate management and accounting platform",
-        "Financial-grade carbon data",
-        "The climate platform for finance"
+        "Carbon Footprint & Sustainability Reporting",
+        "Measure, Report, Decarbonize",
+        "The Carbon & Sustainability AI Leader",
+        "The Persefoni Difference"
       ],
-      "keywords": ["climate management", "carbon accounting", "PCAF", "financial services", "disclosure"]
+      "keywords": ["carbon footprint", "AI", "sustainability reporting", "Scope 1 2 3", "assurance-grade", "decarbonize"]
     },
     "reviews": {
       "g2": { "rating": 4.6, "count": 42 },
@@ -329,16 +362,20 @@
     "strategy": {
       "targetMarket": "Financial services and large enterprises",
       "differentiators": [
-        "Financial services specialization",
-        "PCAF methodology",
-        "Strong US presence"
+        "7000+ teams using platform",
+        "Forrester Leader in carbon accounting",
+        "Native AI with Copilot",
+        "Financial services specialization"
       ]
+    },
+    "metrics": {
+      "teams": "7000+"
     }
   },
   {
     "name": "Workiva",
     "url": "https://workiva.com",
-    "lastScraped": "2026-01-28T10:00:00Z",
+    "lastScraped": "2026-01-28T12:00:00Z",
     "tagline": "Simplify complex reporting",
     "valueProposition": [
       "Integrated reporting platform",
@@ -380,18 +417,18 @@
   {
     "name": "Manglai",
     "url": "https://manglai.io",
-    "lastScraped": "2026-01-28T10:00:00Z",
-    "tagline": "AI-powered sustainability intelligence",
+    "lastScraped": "2026-01-28T12:00:00Z",
+    "tagline": "La plataforma ambiental impulsada por IA",
     "valueProposition": [
-      "AI-driven ESG insights",
-      "Automated data collection",
-      "Predictive sustainability analytics"
+      "Mide, automatiza y mejora tu impacto ambiental en tiempo real",
+      "Plataforma 360º de gestión ambiental",
+      "Diseñado para empresas líderes"
     ],
     "keyFeatures": [
-      "AI analytics",
-      "ESG scoring",
-      "Benchmark analysis",
-      "Risk assessment"
+      "AI-powered environmental platform",
+      "Real-time impact measurement",
+      "Carbon footprint calculator",
+      "360° environmental management"
     ],
     "pricing": {
       "model": "tiered",
@@ -400,22 +437,24 @@
     },
     "messaging": {
       "headlines": [
-        "AI-powered sustainability intelligence",
-        "Smarter ESG decisions",
-        "The future of sustainability management"
+        "La plataforma ambiental impulsada por IA",
+        "Todo tu impacto ambiental, en una plataforma",
+        "La mejor IA, en manos de expertos",
+        "Una plataforma adaptada a tus necesidades"
       ],
-      "keywords": ["AI", "sustainability intelligence", "ESG", "analytics", "predictive"]
+      "keywords": ["AI", "plataforma ambiental", "huella de carbono", "automatización", "tiempo real"]
     },
     "reviews": {
       "g2": { "rating": 4.2, "count": 18 },
       "capterra": { "rating": 4.1, "count": 12 }
     },
     "strategy": {
-      "targetMarket": "Tech-forward companies globally",
+      "targetMarket": "Spanish-speaking enterprises",
       "differentiators": [
         "AI-first approach",
-        "Modern tech stack",
-        "Competitive pricing"
+        "Spanish language native",
+        "Free carbon footprint calculator",
+        "Real-time monitoring"
       ]
     }
   }
